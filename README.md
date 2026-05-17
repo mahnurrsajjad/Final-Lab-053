@@ -9,3 +9,16 @@ The project includes a simple browser-based UI for testing prompts interactively
 This project was created to explore practical AI security concepts in a lightweight and beginner-friendly way while keeping the architecture easy to understand and extend. It demonstrates how a security layer can sit between users and language models to reduce risks related to unsafe prompts and accidental exposure of sensitive information.
 
 Built using Python, FastAPI, Pydantic, HTML/CSS, and JavaScript, the gateway is designed for experimentation, learning, and future scalability into more advanced AI security systems.
+
+## Installation
+
+```bash
+# Clone repository
+git clone <your-repo-url>
+cd llm-security-gateway-final
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download spacy model
+python -m spacy download en_core_web_sm
